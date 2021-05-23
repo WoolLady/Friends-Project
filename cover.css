@@ -1,0 +1,300 @@
+html {
+height: 100%;
+}
+
+/* div, nav, ul {
+  border: solid 1px red;
+} */
+
+body{
+	background-color: #ff9966;
+  background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #ff9966,#FFF);
+    font-size: 20px;
+    font-family: Tahoma, sans-serif;
+    color:#9c5b4e;
+
+  }
+
+.container {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.main-area h2{
+font-size: 12px;
+}
+
+.imgContainer h2 {
+  font-size:12px;
+}
+
+
+header {
+  padding-top: 10px;
+  color:#9c5b4e;
+}
+
+header h1 {
+  margin: 10px 0;
+}
+
+header p {
+  margin: 10px 0;
+}
+
+/* Site Navigation*/
+.site-nav {
+  margin: 20px -40px;
+}
+.site-nav li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+}
+
+.site-nav a{
+  display: block;
+  text-decoration: none;
+  padding: 20px 50px;
+  border: 3px solid #ff9966;
+  color:#9c5b4e;
+}
+
+.site-nav a:hover {
+  background-color:#ff9966;
+}
+
+/* End Site Navigation */
+
+
+/*coverpage images*/
+.main-area img {
+  max-width: 350px;
+  height:auto;
+}
+
+.photo {
+  box-sizing:border-box;
+}
+
+.creepy {
+  transform: rotate(20deg) translate(150px, -25px) scale(1.1);
+  transform-origin: 0 0;
+}
+
+.sunset{
+  transform:translate(550px, -350px) rotate(-5deg) scale(1.2);
+}
+.dinner{
+  transform:translate(70px, -200px) scale(1.1);
+}
+
+.playground{
+transform:translate(550px, -575px)
+}
+/*End coverpage images*/
+
+
+/* Table Styles */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+table th {
+  text-align: left;
+  background-color: #ff9966;
+  color:#FFF;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+}
+
+table th, table td {
+  border: 1px solid #869960;
+  padding: 10px;
+}
+
+table tbody tr:nth-child(odd) td {
+  background-color:#FFF3e6;
+}
+
+table tfoot {
+  font-weight: bold;
+  background-color: #FFF3e6;
+}
+
+/* End Table Styles */
+
+/*all-friends-pictures*/
+
+.imgContainer .photo {
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  padding: 15px 5px;
+  margin-bottom: 15px;
+  position: relative;
+  background-color: white;
+  box-shadow: 1px 6px 5px 5px rgba(0,0,0,.4);
+}
+
+.imgContainer .photo  img {
+  width: 100%;
+}
+
+.imgContainer h2 {
+  text-align: center;
+}
+
+.Matt {
+  transform:translateY(-10px) rotate(-5deg);
+  z-index: 101;
+}
+
+.Azim {
+  transform: translate(-20px,120px);
+  z-index: 99;
+}
+
+/* End all-friends-pictures*/
+
+/*regular-dinners*/
+
+.rd-group .photo img {
+  box-sizing: border-box;
+  padding: 15px 5px;
+  margin-bottom: 15px;
+  position: relative;
+  max-width: 350px;
+  height:auto;
+  background-color: white;
+  box-shadow: 1px 6px 5px 5px rgba(0,0,0,.4);
+}
+
+.hosting-status p {
+  color: black;
+
+}
+
+.hosting-status li{
+  margin-left:0px;
+  margin-top: 0px;
+  list-style:none;
+}
+
+.hosting-status a{
+  display:block;
+  width: 430px;
+  height: 335px;
+  background-image: url(images/hostingspritepng.png);
+  background-position: 890px -670px;
+  margin-left: 550px;
+  margin-top: -1100px;
+  text-indent:-9999px;
+}
+
+.two-debt a:hover {
+  background-position:-480px -1050px;
+}
+
+/*regular-dinners end*/
+
+/*Barry-Lisa page*/
+
+.barrylise .photo {
+  position:absolute;
+  background-color: white;
+  box-shadow: 1px 6px 5px 5px rgb(0 0 0 / 40%);
+  padding: 15px 5px;
+  margin-bottom: 15px;
+}
+
+.hosting-statusB li{
+  margin-left: -580px;
+  margin-top: 900px;
+  list-style: none;
+}
+
+.hosting-statusB a{
+  display:block;
+  width: 450px;
+  height: 335px;
+  background-image: url(images/hostingspritepng.png);
+  background-position: 453px -670px;
+  margin-left: 550px;
+  margin-top: -1100px;
+  text-indent:-9999px;
+}
+
+.three-debt a:hover {
+  background-position:-920px -1050px;
+}
+
+/* Barry-Lisa page end*/
+
+
+/* MEgan */
+
+.meganGmd .photo {
+  position:absolute;
+  background-color: white;
+  box-shadow: 1px 6px 5px 5px rgb(0 0 0 / 40%);
+  padding: 15px 5px;
+  margin-bottom: 15px;
+}
+
+.hosting-statusC li{
+  margin-left: -580px;
+  margin-top: 900px;
+  list-style: none;
+}
+
+.hosting-statusC a{
+  display:block;
+  width: 398px;
+  height: 335px;
+  background-image: url(images/hostingspritepng.png);
+  background-position: 850px 0px;
+  margin-left: 1000px;
+  margin-top: -1500px;
+  text-indent:-9999px;
+}
+
+.two-surplus a:hover {
+  background-position:-525px -350px;
+}
+/* MEgan end*/
+
+footer {
+  text-align: center;
+  font-size: 85%;
+  color: #999;
+  padding-bottom: 20px;
+  padding-top: 200px;
+}
+
+  .fix {
+	clear: both;
+  }
+  
+  .group:before,
+  .group:after {
+	content: "";
+	display: table;
+  }
+  
+  .group:after {
+	clear: both;
+  }
+  
+  .group {
+	zoom: 1;
+  }
+  
